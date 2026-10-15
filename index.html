@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="nav" id="mainNav">
+    <div class="nav-wrapper">
+      <a href="#" class="nav-logo" aria-label="Apple">
+        <svg width="18" height="18" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#store">Store</a></li>
+        <li><a href="#mac">Mac</a></li>
+        <li><a href="#ipad">iPad</a></li>
+        <li><a href="#iphone">iPhone</a></li>
+        <li><a href="#watch">Watch</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#airpods">AirPods</a></li>
+        <li><a href="#tv">TV &amp; Home</a></li>
+        <li><a href="#accessories">Accessories</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-icon-btn" id="searchToggle" aria-label="Search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="nav-icon-btn" id="bagToggle" aria-label="Shopping Bag">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="bag-badge" id="bagBadge">0</span>
+        </button>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#store">Store</a></li>
+      <li><a href="#mac">Mac</a></li>
+      <li><a href="#ipad">iPad</a></li>
+      <li><a href="#iphone">iPhone</a></li>
+      <li><a href="#watch">Watch</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#airpods">AirPods</a></li>
+      <li><a href="#tv">TV &amp; Home</a></li>
+      <li><a href="#accessories">Accessories</a></li>
+      <li><a href="#support">Support</a></li>
+    </ul>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <div class="search-bar-inner">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="search" placeholder="Search apple.com" id="searchInput" />
+      <button class="search-close" id="searchClose" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="search-dropdown" id="searchDropdown">
+      <p class="search-quick-title">Quick Links</p>
+      <a href="#store" class="search-quick-link">Visit the Apple Store</a>
+      <a href="#mac" class="search-quick-link">MacBook Air</a>
+      <a href="#iphone" class="search-quick-link">iPhone 16 Pro</a>
+      <a href="#vision" class="search-quick-link">Vision Pro</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero hero-iphone-pro" id="iphone">
+      <div class="hero-content">
+        <h2 class="hero-title">iPhone 16 Pro</h2>
+        <p class="hero-subtitle">Hello, Apple Intelligence.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn-primary" data-product="iPhone 16 Pro" data-price="999">Learn more</a>
+          <a href="#" class="btn-secondary" data-product="iPhone 16 Pro" data-price="999">Buy</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="Apple-iPhone-16-Pro-hero-240909_inline.jpg.medium_2x.jpg" alt="iPhone 16 Pro in Natural Titanium" />
+      </div>
+    </section>
+
+    <section class="hero hero-iphone">
+      <div class="hero-content">
+        <h2 class="hero-title">iPhone 16</h2>
+        <p class="hero-subtitle">Built for Apple Intelligence.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn-primary" data-product="iPhone 16" data-price="799">Learn more</a>
+          <a href="#" class="btn-secondary" data-product="iPhone 16" data-price="799">Buy</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="iphone-16-design.jpg" alt="iPhone 16 in Ultramarine" />
+      </div>
+    </section>
+
+    <section class="hero hero-vision" id="vision">
+      <div class="hero-content">
+        <h2 class="hero-title">Apple Vision Pro</h2>
+        <p class="hero-subtitle">Welcome to the era of spatial computing.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn-primary" data-product="Apple Vision Pro" data-price="3499">Learn more</a>
+          <a href="#" class="btn-secondary" data-product="Apple Vision Pro" data-price="3499">Buy</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <svg viewBox="0 0 800 500" width="100%" style="max-width: 800px;">
+          <defs>
+            <linearGradient id="visorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#3a3a3c"/>
+              <stop offset="50%" style="stop-color:#1d1d1f"/>
+              <stop offset="100%" style="stop-color:#2c2c2e"/>
+            </linearGradient>
+          </defs>
+          <ellipse cx="400" cy="280" rx="300" ry="150" fill="url(#visorGrad)"/>
+          <ellipse cx="400" cy="280" rx="280" ry="135" fill="#0a0a0c"/>
+          <ellipse cx="310" cy="270" rx="80" ry="50" fill="#1a1a1e" opacity="0.8"/>
+          <ellipse cx="490" cy="270" rx="80" ry="50" fill="#1a1a1e" opacity="0.8"/>
+          <rect x="370" y="260" width="60" height="20" rx="10" fill="#111"/>
+          <path d="M100 250 Q100 180 400 180 Q700 180 700 250" fill="none" stroke="#3a3a3c" stroke-width="3"/>
+          <path d="M100 250 Q100 320 400 320 Q700 320 700 250" fill="none" stroke="#3a3a3c" stroke-width="3"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="hero hero-macbook" id="mac">
+      <div class="hero-content">
+        <h2 class="hero-title">MacBook Air</h2>
+        <p class="hero-subtitle">Supercharged by M3.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn-primary" data-product="MacBook Air" data-price="1099">Learn more</a>
+          <a href="#" class="btn-secondary" data-product="MacBook Air" data-price="1099">Buy</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <svg viewBox="0 0 700 400" width="100%" style="max-width: 700px;">
+          <defs>
+            <linearGradient id="macBody" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#f0f0f2"/>
+              <stop offset="100%" style="stop-color:#d8d8dc"/>
+            </linearGradient>
+            <linearGradient id="macScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#1a1a2e"/>
+              <stop offset="50%" style="stop-color:#16213e"/>
+              <stop offset="100%" style="stop-color:#0f3460"/>
+            </linearGradient>
+          </defs>
+          <path d="M150 80 L100 340 Q100 360 130 360 L570 360 Q600 360 600 340 L550 80 Z" fill="url(#macBody)" stroke="#b0b0b5" stroke-width="1"/>
+          <rect x="170" y="70" width="360" height="280" rx="4" fill="#111"/>
+          <rect x="178" y="78" width="344" height="264" rx="2" fill="url(#macScreen)"/>
+          <text x="350" y="220" text-anchor="middle" fill="#a1a1a6" font-size="18" font-family="-apple-system, SF Pro Display, sans-serif">MacBook Air</text>
+          <rect x="330" y="55" width="40" height="6" rx="3" fill="#3a3a3c"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="promo-grid" id="store">
+      <div class="promo-tile" id="ipad">
+        <div class="promo-tile-content">
+          <h3>iPad Air</h3>
+          <p>Light. Bright. Full of might.</p>
+          <div class="promo-links">
+            <a href="#" class="btn-primary btn-sm" data-product="iPad Air" data-price="599">Learn more</a>
+            <a href="#" class="btn-secondary btn-sm" data-product="iPad Air" data-price="599">Buy</a>
+          </div>
+        </div>
+        <div class="promo-tile-image">
+          <svg viewBox="0 0 300 200" width="100%" style="max-width: 300px;">
+            <rect x="80" y="20" width="140" height="160" rx="12" fill="#e8e8ed" stroke="#d2d2d7" stroke-width="1"/>
+            <rect x="88" y="30" width="124" height="130" rx="4" fill="#1d1d1f"/>
+            <rect x="94" y="38" width="112" height="105" rx="2" fill="#2d74e8"/>
+            <circle cx="150" cy="170" r="4" fill="#d2d2d7"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="promo-tile" id="watch">
+        <div class="promo-tile-content">
+          <h3>Apple Watch Series 10</h3>
+          <p>Thinnest. Biggest display.</p>
+          <div class="promo-links">
+            <a href="#" class="btn-primary btn-sm" data-product="Apple Watch Series 10" data-price="399">Learn more</a>
+            <a href="#" class="btn-secondary btn-sm" data-product="Apple Watch Series 10" data-price="399">Buy</a>
+          </div>
+        </div>
+        <div class="promo-tile-image">
+          <svg viewBox="0 0 300 200" width="100%" style="max-width: 300px;">
+            <rect x="120" y="20" width="60" height="160" rx="18" fill="#e8e8ed" stroke="#d2d2d7" stroke-width="1"/>
+            <rect x="126" y="30" width="48" height="130" rx="14" fill="#1d1d1f"/>
+            <rect x="130" y="38" width="40" height="105" rx="10" fill="#ff3b30"/>
+            <text x="150" y="98" text-anchor="middle" fill="white" font-size="18" font-weight="700" font-family="sans-serif">10</text>
+            <rect x="138" y="12" width="24" height="10" rx="4" fill="#d2d2d7"/>
+            <rect x="138" y="178" width="24" height="10" rx="4" fill="#d2d2d7"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="promo-tile" id="airpods">
+        <div class="promo-tile-content">
+          <h3>AirPods Pro 2</h3>
+          <p>Adaptive Audio. Now playing.</p>
+          <div class="promo-links">
+            <a href="#" class="btn-primary btn-sm" data-product="AirPods Pro" data-price="249">Learn more</a>
+            <a href="#" class="btn-secondary btn-sm" data-product="AirPods Pro" data-price="249">Buy</a>
+          </div>
+        </div>
+        <div class="promo-tile-image">
+          <svg viewBox="0 0 300 200" width="100%" style="max-width: 300px;">
+            <ellipse cx="150" cy="130" rx="65" ry="45" fill="#e8e8ed" stroke="#d2d2d7" stroke-width="1"/>
+            <ellipse cx="150" cy="130" rx="50" ry="32" fill="#1d1d1f"/>
+            <rect x="115" y="45" width="16" height="55" rx="8" fill="#e8e8ed" stroke="#d2d2d7" stroke-width="1"/>
+            <rect x="170" y="45" width="16" height="55" rx="8" fill="#e8e8ed" stroke="#d2d2d7" stroke-width="1"/>
+            <circle cx="123" cy="50" r="9" fill="#d2d2d7"/>
+            <circle cx="178" cy="50" r="9" fill="#d2d2d7"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="promo-tile" id="tv">
+        <div class="promo-tile-content">
+          <h3>Apple TV+</h3>
+          <p>Foundation. Now streaming.</p>
+          <div class="promo-links">
+            <a href="#" class="btn-primary btn-sm" data-product="Apple TV+" data-price="9.99">Try it free</a>
+          </div>
+        </div>
+        <div class="promo-tile-image">
+          <svg viewBox="0 0 300 200" width="100%" style="max-width: 300px;">
+            <rect x="40" y="50" width="220" height="120" rx="10" fill="#1d1d1f"/>
+            <rect x="46" y="56" width="208" height="108" rx="6" fill="#2c2c2e"/>
+            <path d="M135 85 L135 130 L165 107.5 Z" fill="white"/>
+            <rect x="120" y="172" width="60" height="6" rx="3" fill="#d2d2d7"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="promo-tile">
+        <div class="promo-tile-content">
+          <h3>AirTag</h3>
+          <p>Lose your knack for losing things.</p>
+          <div class="promo-links">
+            <a href="#" class="btn-primary btn-sm" data-product="AirTag" data-price="29">Learn more</a>
+            <a href="#" class="btn-secondary btn-sm" data-product="AirTag" data-price="29">Buy</a>
+          </div>
+        </div>
+        <div class="promo-tile-image">
+          <svg viewBox="0 0 300 200" width="100%" style="max-width: 300px;">
+            <circle cx="150" cy="100" r="60" fill="#f5f5f7" stroke="#d2d2d7" stroke-width="1"/>
+            <circle cx="150" cy="100" r="45" fill="white" stroke="#e5e5ea" stroke-width="1"/>
+            <text x="150" y="108" text-anchor="middle" fill="#1d1d1f" font-size="14" font-weight="500" font-family="sans-serif">AirTag</text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="promo-tile">
+        <div class="promo-tile-content">
+          <h3>HomePod</h3>
+          <p>Profound sound. All around.</p>
+          <div class="promo-links">
+            <a href="#" class="btn-primary btn-sm" data-product="HomePod" data-price="299">Learn more</a>
+            <a href="#" class="btn-secondary btn-sm" data-product="HomePod" data-price="299">Buy</a>
+          </div>
+        </div>
+        <div class="promo-tile-image">
+          <svg viewBox="0 0 300 200" width="100%" style="max-width: 300px;">
+            <rect x="100" y="40" width="100" height="120" rx="50" fill="#2c2c2e"/>
+            <ellipse cx="150" cy="100" rx="35" ry="50" fill="#3a3a3c"/>
+            <circle cx="150" cy="100" r="20" fill="#48484a"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-strip" id="accessories">
+      <div class="services-inner">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <h4>Apple Music</h4>
+          <p>100 million songs. Zero ads.</p>
+          <a href="#" class="service-link" data-product="Apple Music" data-price="10.99">Try it free</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>
+          </div>
+          <h4>Apple News+</h4>
+          <p>Hundreds of magazines. Top newspapers.</p>
+          <a href="#" class="service-link" data-product="Apple News+" data-price="12.99">Try it free</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="10" x2="10" y2="10"/><line x1="8" y1="8" x2="8" y2="12"/><line x1="15" y1="11" x2="15.01" y2="11"/><line x1="18" y1="9" x2="18.01" y2="11"/></svg>
+          </div>
+          <h4>Apple Arcade</h4>
+          <p>200+ games. No ads. No IAP.</p>
+          <a href="#" class="service-link" data-product="Apple Arcade" data-price="6.99">Try it free</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4Z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h4>iCloud+</h4>
+          <p>All your photos. All your files. One place.</p>
+          <a href="#" class="service-link" data-product="iCloud+" data-price="0.99">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="apple-intelligence">
+      <div class="ai-content">
+        <h2>Apple Intelligence</h2>
+        <p>AI for the rest of us.</p>
+        <a href="#" class="btn-primary" data-product="Apple Intelligence" data-price="0">Learn more</a>
+      </div>
+      <div class="ai-visual">
+        <svg viewBox="0 0 400 400" width="200" height="200">
+          <defs>
+            <linearGradient id="aiGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#0071e3"/>
+              <stop offset="100%" style="stop-color:#2997ff"/>
+            </linearGradient>
+          </defs>
+          <circle cx="200" cy="200" r="120" fill="none" stroke="url(#aiGlow)" stroke-width="2" opacity="0.3"/>
+          <circle cx="200" cy="200" r="90" fill="none" stroke="url(#aiGlow)" stroke-width="2" opacity="0.5"/>
+          <circle cx="200" cy="200" r="60" fill="url(#aiGlow)" opacity="0.15"/>
+          <circle cx="200" cy="200" r="60" fill="none" stroke="url(#aiGlow)" stroke-width="3"/>
+          <circle cx="200" cy="80" r="6" fill="#0071e3"/>
+          <circle cx="200" cy="320" r="6" fill="#0071e3"/>
+          <circle cx="80" cy="200" r="6" fill="#0071e3"/>
+          <circle cx="320" cy="200" r="6" fill="#0071e3"/>
+          <circle cx="115" cy="115" r="4" fill="#2997ff"/>
+          <circle cx="285" cy="115" r="4" fill="#2997ff"/>
+          <circle cx="115" cy="285" r="4" fill="#2997ff"/>
+          <circle cx="285" cy="285" r="4" fill="#2997ff"/>
+          <text x="200" y="210" text-anchor="middle" fill="#0071e3" font-size="32" font-weight="300" font-family="-apple-system, SF Pro Display, sans-serif">AI</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="store-section">
+      <h2 class="section-heading">The Apple Store difference.</h2>
+      <div class="store-features">
+        <div class="store-feature">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="1.5"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+          <h4>Fast, free delivery</h4>
+          <p>Free next-day delivery on orders over $99.</p>
+        </div>
+        <div class="store-feature">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <h4>Chat with a Specialist</h4>
+          <p>Shop one on one with an Apple expert.</p>
+        </div>
+        <div class="store-feature">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <h4>Trade in and save</h4>
+          <p>Get credit toward your next purchase.</p>
+        </div>
+        <div class="store-feature">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0071e3" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <h4>Pay in full or over time</h4>
+          <p>Choose the payment option that works for you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="newsletter-inner">
+        <h2>Stay in the loop.</h2>
+        <p>Get the latest on new products, offers, and more.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Email address" required />
+          <button type="submit">Sign Up</button>
+        </form>
+        <p class="newsletter-msg" id="newsletterMsg">Thanks for signing up!</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="bag-drawer" id="bagDrawer">
+    <div class="bag-header">
+      <h3>Your Bag</h3>
+      <button class="bag-close" id="bagClose">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="bag-items" id="bagItems">
+      <p class="bag-empty">Your bag is empty.</p>
+    </div>
+    <div class="bag-footer">
+      <div class="bag-total-row">
+        <span>Total</span>
+        <span id="bagTotal">$0.00</span>
+      </div>
+      <button class="btn-primary btn-checkout" id="checkoutBtn">Check Out</button>
+    </div>
+  </div>
+  <div class="bag-overlay" id="bagOverlay"></div>
+
+  <div class="product-modal" id="productModal">
+    <button class="modal-close" id="modalClose">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+  <div class="modal-overlay" id="modalOverlay"></div>
+
+  <footer class="footer" id="support">
+    <div class="footer-notes">
+      <p>Apple Intelligence is available in beta. Some features may not be available in all regions or languages.</p>
+      <p>Trade-in values vary based on the condition, year, and configuration of your eligible trade-in device.</p>
+    </div>
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h5>Shop and Learn</h5>
+        <a href="#store">Store</a>
+        <a href="#mac">Mac</a>
+        <a href="#ipad">iPad</a>
+        <a href="#iphone">iPhone</a>
+        <a href="#watch">Watch</a>
+        <a href="#vision">Vision</a>
+        <a href="#airpods">AirPods</a>
+        <a href="#tv">TV &amp; Home</a>
+        <a href="#accessories">Accessories</a>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <a href="#">Apple Music</a>
+        <a href="#">Apple TV+</a>
+        <a href="#">Apple Fitness+</a>
+        <a href="#">Apple News+</a>
+        <a href="#">Apple Arcade</a>
+        <a href="#">iCloud</a>
+        <a href="#">Apple One</a>
+      </div>
+      <div class="footer-col">
+        <h5>Apple Store</h5>
+        <a href="#">Find a Store</a>
+        <a href="#">Genius Bar</a>
+        <a href="#">Today at Apple</a>
+        <a href="#">Apple Camp</a>
+        <a href="#">Financing</a>
+        <a href="#">Trade In</a>
+        <a href="#">Order Status</a>
+      </div>
+      <div class="footer-col">
+        <h5>About Apple</h5>
+        <a href="#">Newsroom</a>
+        <a href="#">Leadership</a>
+        <a href="#">Career Opportunities</a>
+        <a href="#">Investors</a>
+        <a href="#">Ethics &amp; Compliance</a>
+        <a href="#">Events</a>
+        <a href="#">Contact Apple</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+      <div class="footer-legal">
+        <span>Copyright &copy; 2026 Apple Inc. All rights reserved.</span>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Sales and Refunds</a>
+        <a href="#">Legal</a>
+        <a href="#">Site Map</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
