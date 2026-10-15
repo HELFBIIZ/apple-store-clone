@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000"/><stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="aiGlow3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0071e3"/><stop offset="100%" style="stop-color:#2997ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#aiBg)"/>
+  <rect width="1200" height="44" fill="rgba(251,251,253,0.9)"/>
+  <circle cx="20" cy="22" r="6" fill="#ff5f57"/><circle cx="38" cy="22" r="6" fill="#febc2e"/><circle cx="56" cy="22" r="6" fill="#28c840"/>
+  <rect x="100" y="12" width="1000" height="20" rx="10" fill="#2d2d2f"/>
+  <text x="600" y="26" text-anchor="middle" fill="#a1a1a6" font-size="11" font-family="sans-serif">apple.com</text>
+  <circle cx="600" cy="350" r="180" fill="none" stroke="url(#aiGlow3)" stroke-width="1" opacity="0.2"/>
+  <circle cx="600" cy="350" r="140" fill="none" stroke="url(#aiGlow3)" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="600" cy="350" r="100" fill="none" stroke="url(#aiGlow3)" stroke-width="2" opacity="0.5"/>
+  <circle cx="600" cy="350" r="70" fill="url(#aiGlow3)" opacity="0.15"/>
+  <circle cx="600" cy="350" r="70" fill="none" stroke="url(#aiGlow3)" stroke-width="3"/>
+  <circle cx="600" cy="170" r="6" fill="#0071e3"/>
+  <circle cx="600" cy="530" r="6" fill="#0071e3"/>
+  <circle cx="420" cy="350" r="6" fill="#0071e3"/>
+  <circle cx="780" cy="350" r="6" fill="#0071e3"/>
+  <circle cx="473" cy="223" r="4" fill="#2997ff"/>
+  <circle cx="727" cy="223" r="4" fill="#2997ff"/>
+  <circle cx="473" cy="477" r="4" fill="#2997ff"/>
+  <circle cx="727" cy="477" r="4" fill="#2997ff"/>
+  <text x="600" y="365" text-anchor="middle" fill="#fff" font-size="42" font-weight="200" font-family="-apple-system, SF Pro Display, sans-serif">AI</text>
+  <text x="600" y="600" text-anchor="middle" fill="#fff" font-size="48" font-weight="700" font-family="-apple-system, SF Pro Display, sans-serif">Apple Intelligence</text>
+  <text x="600" y="640" text-anchor="middle" fill="#a1a1a6" font-size="22" font-family="-apple-system, SF Pro Display, sans-serif">AI for the rest of us.</text>
+  <rect x="530" y="670" width="140" height="40" rx="20" fill="#0071e3"/>
+  <text x="600" y="696" text-anchor="middle" fill="#fff" font-size="15" font-family="sans-serif">Learn more</text>
+</svg>

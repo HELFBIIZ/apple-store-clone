@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800">
+  <defs>
+    <linearGradient id="mobHero" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="800" fill="url(#mobHero)"/>
+  <rect width="400" height="44" fill="rgba(251,251,253,0.9)"/>
+  <circle cx="20" cy="22" r="6" fill="#1d1d1f"/>
+  <text x="17" y="25" text-anchor="middle" fill="#fff" font-size="8" font-family="-apple-system, sans-serif"> </text>
+  <rect x="340" y="16" width="40" height="12" rx="6" fill="#333" opacity="0.6"/>
+  <rect x="350" y="14" width="4" height="16" rx="2" fill="#333" opacity="0.8"/>
+  <rect x="356" y="14" width="4" height="16" rx="2" fill="#333" opacity="0.8"/>
+  <text x="200" y="180" text-anchor="middle" fill="#fff" font-size="32" font-weight="700" font-family="-apple-system, SF Pro Display, sans-serif">iPhone 16 Pro</text>
+  <text x="200" y="210" text-anchor="middle" fill="#a1a1a6" font-size="14" font-family="-apple-system, sans-serif">Hello, Apple Intelligence.</text>
+  <rect x="145" y="230" width="70" height="28" rx="14" fill="#0071e3"/>
+  <text x="180" y="248" text-anchor="middle" fill="#fff" font-size="11" font-family="-apple-system, sans-serif">Learn more</text>
+  <rect x="225" y="230" width="50" height="28" rx="14" fill="none" stroke="#0071e3" stroke-width="1"/>
+  <text x="250" y="248" text-anchor="middle" fill="#0071e3" font-size="11" font-family="-apple-system, sans-serif">Buy</text>
+  <rect x="120" y="290" width="160" height="300" rx="28" fill="#2c2c2e"/>
+  <rect x="126" y="296" width="148" height="288" rx="24" fill="#0a0a0c"/>
+  <rect x="175" y="305" width="50" height="14" rx="7" fill="#1d1d1f"/>
+  <circle cx="185" cy="312" r="3" fill="#2d2d2f"/>
+  <circle cx="198" cy="312" r="3" fill="#2d2d2f"/>
+  <text x="200" y="430" text-anchor="middle" fill="#fff" font-size="22" font-weight="300" font-family="-apple-system, sans-serif">9:41</text>
+  <text x="200" y="455" text-anchor="middle" fill="#a1a1a6" font-size="10" font-family="-apple-system, sans-serif">Monday, January 13</text>
+  <rect x="140" y="480" width="120" height="28" rx="14" fill="#3a3a3c"/>
+  <text x="200" y="498" text-anchor="middle" fill="#fff" font-size="10" font-family="-apple-system, sans-serif">Apple Intelligence</text>
+  <rect x="165" y="530" width="70" height="24" rx="12" fill="#0071e3"/>
+  <text x="200" y="546" text-anchor="middle" fill="#fff" font-size="9" font-family="-apple-system, sans-serif">Learn more</text>
+  <rect width="400" height="600" fill="#f5f5f7" y="600"/>
+  <rect x="0" y="600" width="400" height="200" fill="#f5f5f7"/>
+  <text x="200" y="640" text-anchor="middle" fill="#1d1d1f" font-size="20" font-weight="700" font-family="-apple-system, sans-serif">iPad Air</text>
+  <text x="200" y="665" text-anchor="middle" fill="#6e6e73" font-size="12" font-family="-apple-system, sans-serif">Light. Bright. Full of might.</text>
+  <rect x="160" y="680" width="50" height="22" rx="11" fill="#0071e3"/>
+  <text x="185" y="695" text-anchor="middle" fill="#fff" font-size="9" font-family="-apple-system, sans-serif">Learn more</text>
+  <rect x="220" y="680" width="35" height="22" rx="11" fill="none" stroke="#0071e3" stroke-width="1"/>
+  <text x="237" y="695" text-anchor="middle" fill="#0071e3" font-size="9" font-family="-apple-system, sans-serif">Buy</text>
+</svg>
