@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="aiGlow2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0071e3"/>
+      <stop offset="50%" style="stop-color:#2997ff"/>
+      <stop offset="100%" style="stop-color:#0071e3"/>
+    </linearGradient>
+    <radialGradient id="aiCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2997ff"/>
+      <stop offset="100%" style="stop-color:#0071e3"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#000"/>
+  <circle cx="400" cy="300" r="200" fill="none" stroke="url(#aiGlow2)" stroke-width="1" opacity="0.2"/>
+  <circle cx="400" cy="300" r="160" fill="none" stroke="url(#aiGlow2)" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="400" cy="300" r="120" fill="none" stroke="url(#aiGlow2)" stroke-width="2" opacity="0.5"/>
+  <circle cx="400" cy="300" r="80" fill="url(#aiCore)" opacity="0.15"/>
+  <circle cx="400" cy="300" r="80" fill="none" stroke="url(#aiGlow2)" stroke-width="3"/>
+  <circle cx="400" cy="100" r="8" fill="#0071e3"/>
+  <circle cx="400" cy="500" r="8" fill="#0071e3"/>
+  <circle cx="200" cy="300" r="8" fill="#0071e3"/>
+  <circle cx="600" cy="300" r="8" fill="#0071e3"/>
+  <circle cx="259" cy="159" r="5" fill="#2997ff"/>
+  <circle cx="541" cy="159" r="5" fill="#2997ff"/>
+  <circle cx="259" cy="441" r="5" fill="#2997ff"/>
+  <circle cx="541" cy="441" r="5" fill="#2997ff"/>
+  <text x="400" y="315" text-anchor="middle" fill="#fff" font-size="48" font-weight="200" font-family="-apple-system, SF Pro Display, sans-serif">AI</text>
+  <text x="400" y="480" text-anchor="middle" fill="#a1a1a6" font-size="20" font-weight="300" font-family="-apple-system, SF Pro Display, sans-serif">Apple Intelligence</text>
+  <text x="400" y="510" text-anchor="middle" fill="#6e6e73" font-size="14" font-family="-apple-system, SF Pro Display, sans-serif">AI for the rest of us</text>
+</svg>

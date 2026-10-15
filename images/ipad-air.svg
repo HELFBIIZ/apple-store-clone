@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="ipadScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d74e8"/>
+      <stop offset="50%" style="stop-color:#1a5bc4"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#fbfbfd"/>
+  <ellipse cx="400" cy="520" rx="200" ry="15" fill="#e5e5ea" opacity="0.5"/>
+  <rect x="250" y="60" width="300" height="480" rx="20" fill="#e8e8ed" stroke="#d2d2d7" stroke-width="1"/>
+  <rect x="260" y="72" width="280" height="456" rx="14" fill="url(#ipadScreen)"/>
+  <circle cx="400" cy="520" r="5" fill="#d2d2d7"/>
+  <rect x="390" y="65" width="20" height="6" rx="3" fill="#d2d2d7"/>
+  <text x="400" y="280" text-anchor="middle" fill="#fff" font-size="32" font-weight="300" font-family="-apple-system, SF Pro Display, sans-serif">iPad Air</text>
+  <text x="400" y="320" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="16" font-family="-apple-system, SF Pro Display, sans-serif">Light. Bright. Full of might.</text>
+  <rect x="340" y="370" width="120" height="36" rx="18" fill="#0071e3"/>
+  <text x="400" y="393" text-anchor="middle" fill="#fff" font-size="13" font-weight="500" font-family="-apple-system, SF Pro Display, sans-serif">Learn more</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="macBody2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f0f2"/>
+      <stop offset="100%" style="stop-color:#d8d8dc"/>
+    </linearGradient>
+    <linearGradient id="macScreen2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#fbfbfd"/>
+  <ellipse cx="400" cy="480" rx="280" ry="20" fill="#e5e5ea" opacity="0.5"/>
+  <path d="M180 120 L120 460 Q120 480 150 480 L650 480 Q680 480 680 460 L620 120 Z" fill="url(#macBody2)" stroke="#b0b0b5" stroke-width="1"/>
+  <rect x="200" y="110" width="400" height="340" rx="6" fill="#111"/>
+  <rect x="208" y="118" width="384" height="324" rx="3" fill="url(#macScreen2)"/>
+  <rect x="380" y="100" width="40" height="8" rx="4" fill="#3a3a3c"/>
+  <text x="400" y="300" text-anchor="middle" fill="#a1a1a6" font-size="28" font-weight="300" font-family="-apple-system, SF Pro Display, sans-serif">MacBook Air</text>
+  <text x="400" y="340" text-anchor="middle" fill="#6e6e73" font-size="16" font-family="-apple-system, SF Pro Display, sans-serif">Supercharged by M3</text>
+  <rect x="350" y="380" width="100" height="30" rx="15" fill="#0071e3"/>
+  <text x="400" y="400" text-anchor="middle" fill="#fff" font-size="12" font-weight="500" font-family="-apple-system, SF Pro Display, sans-serif">Buy</text>
+</svg>

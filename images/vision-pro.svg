@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="visorGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a3a3c"/>
+      <stop offset="50%" style="stop-color:#1d1d1f"/>
+      <stop offset="100%" style="stop-color:#2c2c2e"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.1)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#000"/>
+  <ellipse cx="400" cy="350" rx="320" ry="180" fill="url(#visorGrad2)"/>
+  <ellipse cx="400" cy="350" rx="300" ry="165" fill="#0a0a0c"/>
+  <ellipse cx="400" cy="350" rx="290" ry="155" fill="url(#glassGrad)"/>
+  <ellipse cx="290" cy="340" rx="90" ry="55" fill="#1a1a1e" opacity="0.9"/>
+  <ellipse cx="510" cy="340" rx="90" ry="55" fill="#1a1a1e" opacity="0.9"/>
+  <rect x="360" y="325" width="80" height="30" rx="15" fill="#111"/>
+  <path d="M80 300 Q80 200 400 200 Q720 200 720 300" fill="none" stroke="#3a3a3c" stroke-width="4"/>
+  <path d="M80 300 Q80 400 400 400 Q720 400 720 300" fill="none" stroke="#3a3a3c" stroke-width="4"/>
+  <ellipse cx="400" cy="350" rx="60" ry="30" fill="none" stroke="#0071e3" stroke-width="1" opacity="0.3"/>
+  <text x="400" y="520" text-anchor="middle" fill="#a1a1a6" font-size="18" font-weight="300" font-family="-apple-system, SF Pro Display, sans-serif">Welcome to the era of spatial computing</text>
+</svg>
